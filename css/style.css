@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+}
+
+/* logo e scritta */
+
+.logo{
+    background-color: white;
+    padding: 10px 20px; 
+}
+
+.logo-name{
+    display: inline-block;
+    color: ;
+    margin-left: 10px;
+    vertical-align: top;
+    line-height: 45px;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+
