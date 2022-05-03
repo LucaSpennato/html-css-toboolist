@@ -106,6 +106,9 @@ main{
     border: 1px solid green;
     border-radius: 50%;
     color: green;
+    font-size: 10px;
+    padding: 3px;
+    margin-right: 3px;
 }
 
 .not-done:after{
@@ -113,6 +116,9 @@ main{
     border: 1px solid red;
     border-radius: 50%;
     color: red;
+    font-size: 10px;
+    padding: 3px;
+    margin-right: 3px;
 }
 
 /* etichette */
