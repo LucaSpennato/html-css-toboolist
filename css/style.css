@@ -93,6 +93,27 @@ main{
     vertical-align: middle;
 }
 
+/* task hovering  */
+
+.wiew-all:hover:before{
+    content: "\259F"; 
+}
+
+/* done and note done  */
+
+.done:after{
+    content: "\2714";
+    border: 1px solid green;
+    border-radius: 50%;
+    color: green;
+}
+
+.not-done:after{
+    content: "\2718";
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+}
 
 /* etichette */
 
