@@ -121,55 +121,60 @@ main{
     content: "Editorial";
     background-color: skyblue;
     padding: 10px;
-    font-size: 15px;
+    font-size: 12px;
     border-radius: 15px;
     color: white;
     vertical-align: middle;
-    margin: 5px; 
+    margin: 5px;
+    font-weight: bold;
 }
 
 .label-b:after{
     content: "Q1-Goals";
     background-color: blueviolet;
     padding: 10px;
-    font-size: 15px;
+    font-size: 12px;
     border-radius: 15px;
     color: white;
     vertical-align: middle;
     margin: 5px;
+    font-weight: bold;
 }
 
 .label-c:after{
     content: "Recruiting";
     background-color: green;
     padding: 10px;
-    font-size: 15px;
+    font-size: 12px;
     border-radius: 15px;
     color: white;
     vertical-align: middle;
     margin: 5px;
+    font-weight: bold;
 }
 
 .label-d:after{
     content: "Mobile";
     background-color: orange;
     padding: 10px;
-    font-size: 15px;
+    font-size: 12px;
     border-radius: 15px;
     color: white;
     vertical-align: middle;
     margin: 5px;
+    font-weight: bold;
 }
 
 .label-e:after{
     content: "Website";
     background-color: palevioletred;
     padding: 10px;
-    font-size: 15px;
+    font-size: 12px;
     border-radius: 15px;
     color: white;
     vertical-align: middle;
     margin: 5px;
+    font-weight: bold;
 }
 
 .label-f:after{
@@ -181,4 +186,5 @@ main{
     color: white;
     vertical-align: middle;
     margin: 5px;
+    font-weight: bold;
 }
