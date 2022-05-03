@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* font-family: Arial, sans-serif;
+     è possibile fare una cosa del genere?? 
+    da chiedere!  */
 }
 
 body{
@@ -25,6 +28,39 @@ body{
     font-family: Arial, sans-serif;
     font-weight: bold;
 }
+
+/* gestione main */
+
+.container{
+    width: 80%;
+    margin: 30px auto;
+    background-color:white;
+    padding-left: 50px;
+}
+
+.task-control button{
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 5px;
+    border: 1px solid;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.task-control .add-task{
+    background-color: skyblue;
+    border-color: skyblue;
+    color: white;
+}
+
+.task-control .add-section{
+    background-color: white;
+    border-color: lightgray;
+    color: lightgray;
+}
+
+
+
 
 
 
