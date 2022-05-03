@@ -117,7 +117,19 @@ main{
 
 /* etichette */
 
-.label{
+.label-a:after{
+    content: "Editorial";
+    background-color: skyblue;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 15px;
+    color: white;
+    vertical-align: middle;
+    margin: 5px; 
+}
+
+.label-b:after{
+    content: "Q1-Goals";
     background-color: blueviolet;
     padding: 10px;
     font-size: 15px;
@@ -127,5 +139,46 @@ main{
     margin: 5px;
 }
 
+.label-c:after{
+    content: "Recruiting";
+    background-color: green;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 15px;
+    color: white;
+    vertical-align: middle;
+    margin: 5px;
+}
 
+.label-d:after{
+    content: "Mobile";
+    background-color: orange;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 15px;
+    color: white;
+    vertical-align: middle;
+    margin: 5px;
+}
 
+.label-e:after{
+    content: "Website";
+    background-color: palevioletred;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 15px;
+    color: white;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.label-f:after{
+    content: "Sales";
+    background-color: greenyellow;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 15px;
+    color: white;
+    vertical-align: middle;
+    margin: 5px;
+}
